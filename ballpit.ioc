@@ -7,6 +7,7 @@ CAN.CalculateTimeBit=6000
 CAN.CalculateTimeQuantum=2000.0
 CAN.IPParameters=CalculateTimeQuantum,CalculateTimeBit,CalculateBaudRate
 File.Version=6
+GPIO.groupedBy=Group By Peripherals
 KeepUserPlacement=false
 Mcu.CPN=STM32F103R8T6
 Mcu.Family=STM32F1

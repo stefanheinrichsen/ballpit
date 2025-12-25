@@ -104,6 +104,11 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	HAL_Delay(4000);
+	HAL_GPIO_WritePin(GPIOC, FLIPPER_Pin, GPIO_PIN_SET);
+	HAL_Delay(1000);
+	HAL_GPIO_WritePin(GPIOC, FLIPPER_Pin, GPIO_PIN_RESET);
+
   }
   /* USER CODE END 3 */
 }
